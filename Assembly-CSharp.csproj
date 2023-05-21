@@ -41,6 +41,17 @@
      <Compile Include="Assets/Scripts/Spinner.cs" />
      <Compile Include="Assets/Scripts/Scorer.cs" />
      <Compile Include="Assets/Scripts/Mover.cs" />
+     <Compile Include="Assets/FlutterUnityIntegration/Demo/Rotate.cs" />
+     <Compile Include="Assets/FlutterUnityIntegration/Demo/SceneLoader.cs" />
+     <Compile Include="Assets/FlutterUnityIntegration/NativeAPI.cs" />
+     <Compile Include="Assets/FlutterUnityIntegration/UnityMessageManager.cs" />
+     <Compile Include="Assets/FlutterUnityIntegration/SingletonMonoBehaviour.cs" />
+     <Compile Include="Assets/FlutterUnityIntegration/Demo/GameManager.cs" />
+     <None Include="Assets/FlutterUnityIntegration/JsonDotNet/link.xml" />
+     <None Include="Assets/FlutterUnityIntegration/README.txt" />
+     <None Include="Assets/FlutterUnityIntegration/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll.txt" />
+     <None Include="Assets/FlutterUnityIntegration/JsonDotNet/Assemblies/Windows/Newtonsoft.Json.dll.txt" />
+     <None Include="Assets/FlutterUnityIntegration/link.xml" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -292,6 +303,9 @@
     </Reference>
     <Reference Include="ReportGeneratorMerged">
         <HintPath>/Users/divyansh/UnityProjects/Obstacle/Library/PackageCache/com.unity.testtools.codecoverage@1.2.3/lib/ReportGenerator/ReportGeneratorMerged.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+        <HintPath>/Users/divyansh/UnityProjects/Obstacle/Assets/FlutterUnityIntegration/JsonDotNet/Assemblies/AOT/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.25f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
